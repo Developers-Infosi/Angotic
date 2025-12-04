@@ -5,27 +5,26 @@
              <div class="contain">
                  <div class="nav-wrapper">
                      <div class="div-block-298">
-                         <a href="../index.html" class="the-brand w-inline-block"></a>
+                         <a href="{{ route('site.home') }}" class="the-brand w-inline-block"></a>
                          <div class="apoio mobile">
-                             <div class="div-block-139"><img width="135" loading="lazy" alt=""
-                                     src="images/logo/flag_ue.png" class="image-19"></div>
+                             <div class="div-block-139">
+                                 <img width="135" loading="lazy" alt="" src="/img/logo/color.jpg"
+                                     class="image-19">
+                             </div>
                          </div>
-                         <div class="apoio">
-                             <a href="" class="div-block-139 w-inline-block"><img width="135" loading="lazy"
-                                     alt="" src="images/logo/flag_ue.png" class="image-19"></a>
-                         </div>
+
                      </div>
                      <div class="div-block-299">
                          <div class="div-block-180">
-                             <a href="page/sobre-o-summit.html" aria-current="page"
+                             <a href="{{ route('site.about') }}" aria-current="page"
                                  class="link-9 menu w-inline-block w--current">
-                                 <div>Sobre a 7.ª Cimeira</div>
+                                 <div>Sobre o ANGOTIC</div>
                              </a>
-                             <a href="../page/parceiros.html" class="link-9 menu w-inline-block">
-                                 <div>Programação</div>
+                             <a href="{{ route('site.schedule') }}" class="link-9 menu w-inline-block">
+                                 <div>Agenda</div>
                              </a>
-                             <a href="../page/delegados.html" class="link-9 menu w-inline-block">
-                                 <div>Registra-se </div>
+                             <a href="{{ route('site.registration.index') }}" class="link-9 menu w-inline-block">
+                                 <div>Participantes</div>
                              </a>
                          </div>
                          <div class="div-block-162">
@@ -78,8 +77,8 @@
              </div>
              <div class="menu">
                  <div class="div-block-166">
-                     <a href="index.html" aria-current="page" class="link-9 w-inline-block w--current">
-                         <div>Inicio</div>
+                     <a href="{{ route('site.home') }}" aria-current="page" class="link-9 w-inline-block w--current">
+                         <div>Home</div>
                      </a>
                      <a href="page/sobre-o-summit.html" class="link-9 w-inline-block">
                          <div>Sobre a 7.ª Cimeira</div>

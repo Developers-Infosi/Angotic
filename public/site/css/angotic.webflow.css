@@ -948,7 +948,7 @@ p {
 }
 
 .the-brand {
-  background-image: url('../images/logo/flag_ua.png');
+  background-image: url('../img/logo/color.jpg');
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -957,7 +957,7 @@ p {
 }
 
 .the-brand.w--current {
-  background-image: url('../images/logo/flag_ua.png');
+  background-image: url('../img/logo/color.jpg');
   background-position: 50%;
   background-size: contain;
   width: 50%;
@@ -1208,7 +1208,7 @@ p {
 }
 
 .logo-2 {
-  background-image: url('../images/logo/flag_ua.png');
+  background-image: url('../img/logo/color.jpg');
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -4114,7 +4114,7 @@ p {
 }
 
 .brand {
-  background-image: url('../images/logo/flag_ua.png');
+  background-image: url('../img/logo/color.jpg');
   background-position: 0 0;
   background-size: auto;
 }
@@ -5363,7 +5363,7 @@ p {
 }
 
 .div-block-192._1:hover {
-  background-image: linear-gradient(#000, #000), url('../images/logo/flag_ua.png');
+  background-image: linear-gradient(#000, #000), url('../img/logo/color.jpg');
   background-position: 0 0, 0%;
   background-size: auto, cover;
 }
@@ -6601,7 +6601,7 @@ p {
 }
 
 .div-block-238 {
-  background-image: url('../images/banners/mixed.jpg');
+  background-image: url('../img/banner/bn-1.jpg');
   background-position: 50%;
   background-size: cover;
   border: 2px #ed3237;
@@ -8722,7 +8722,7 @@ p {
 }
 
 .div-block-329 {
-  background-image: url('../images/logo/flag_ua.png');
+  background-image: url('../img/logo/color.jpg');
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: contain;

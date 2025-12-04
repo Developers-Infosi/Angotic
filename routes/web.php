@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', ['as' => 'site.home', 'uses' => 'Site\SiteController@index']);
+Route::get('/', ['as' => 'site.home', 'uses' => 'Site\HomeController@index']);
 Route::get('sobre', ['as' => 'site.about', 'uses' => 'Site\AboutController@index']);
 Route::get('agenda', ['as' => 'site.schedule', 'uses' => 'Site\ScheduleController@index']);
 /**speaker */

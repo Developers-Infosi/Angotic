@@ -3,14 +3,22 @@
 namespace App\Http\Controllers\Site;
 
 use App\Http\Controllers\Controller;
+use App\Jobs\RegistrationJob;
 use App\Models\Registration;
-use PDF;
 use Illuminate\Http\Request;
-use Illuminate\Support\Str;
-
+use PDF;
+use App\Apis\Appypay\GPO;
+use App\Models\Plafond;
 
 class RegistrationController extends Controller
 {
+    private $GPO;
+
+    public function __construct()
+    {
+        $this->GPO = new GPO;
+    }
+
 
 
     public function create()
@@ -21,62 +29,100 @@ class RegistrationController extends Controller
 
     public function store(Request $request)
     {
-        // 🔹 Validação
-        $validated = $request->validate([
-            // Delegate Info
-            'type' => 'required|string|in:Yes,No',
-            'based' => 'required|string|in:Yes,No',
-            'nationality' => 'required|string|max:255',
-            'title' => 'required|string|in:Dr,Miss,Mrs,Ms,Mr,Prof',
-            'fullname' => 'required|string|max:255',
-            'phone' => 'required|string|max:20',
-            'email' => 'nullable|email',
 
-            // Organisation
-            'org_type' => 'required|string|max:255',
-            'org_name' => 'required|string|max:255',
-            'position' => 'required|string|max:255',
-            'head_of_delegation' => 'required|string|in:Yes,No',
-
-            // Accommodation & Diet (só obrigatórios se based == No)
-            'accommodation' => 'nullable|required_if:based,No|string|in:Yes,No',
-            'diet' => 'nullable|required_if:based,No|string|max:255',
-
-            // Travel Info (só obrigatórios se based == No)
-            'passport_number' => 'nullable|required_if:based,No|string|max:50',
-            'passport_type' => 'nullable|required_if:based,No|string|max:50',
-            'visa_status' => 'nullable|required_if:based,No|string|max:255',
-            'country_of_departure' => 'nullable|required_if:based,No|string|max:255',
-            'arrival_date' => 'nullable|required_if:based,No|date',
-            'departure_date' => 'nullable|required_if:based,No|date|after_or_equal:arrival_date',
+        $request->validate([
+            'plafond' => 'required|string|max:255',
+            'nif' => 'required|string|max:255',
+            'name' => 'required|string|max:255',
+            'email' => 'required|email',
+            'tel' => 'required',
+            'type' => 'required|string|max:20',
+            'quantity' => 'nullable|numeric'
         ]);
 
-        // 🔹 Criar registo
-        $registration = Registration::create(array_merge($validated, [
-            'code' => strtoupper(Str::random(8)),
-        ]));
-
-
-        return redirect()->back()->with([
-            'create' => true,
-            'fullname' => $registration->fullname,
-            'title' => $registration->title,
-            'code' => $registration->code,
+        //senha
+        $key = 'AT' . rand();
+        $data = Registration::create([
+            'code' =>  $key,
+            'plafond' => $request->plafond,
+            'nif' => $request->nif,
+            'name' => $request->name,
+            'email' => $request->email,
+            'tel' => $request->tel,
+            'paymethod' => $request->paymethod,
+            'quantity' => ($request->type == 'Individual') ? 1 : $request->quantity,
+            'type' =>  $request->type
         ]);
+
+        $registration = Registration::find($data->id);
+        // RegistrationJob::dispatch($registration)->delay(now()->addSeconds('2'));
+
+        if ($registration->paymethod == 'MCX') {
+
+            return redirect()->route('site.registration.payexpress', [
+                'code' => $registration->code,
+                'billingphone' => $request->billingphone,
+            ]);
+        } else {
+            return redirect()->back()->with('create', ['codetype' => $registration->code, 'idCardtype' => $registration->nif]);
+        }
     }
 
+
+
     /**
-     * Display a receipt with certified QrScan
+     * Display a invoice with certified QrScan
      *
      * @return \Illuminate\Http\Response
      */
-    public function receipt ($code)
+    public function payexpress($code, Request $request)
     {
 
-        $response['registration'] = Registration::where('code', $code)->first();
-        
-        $pdf = PDF::loadView('pdf.receipt.index', $response);
+        $billingphone = $request->query('billingphone');
 
-        return $pdf->stream('receipt -' . $code . '.pdf');
+        $registration = Registration::where('code', $code)->first();
+        $response['registration'] = $registration;
+
+        //plafond
+        $plafond = Plafond::where('name', $registration->plafond)->first();
+        $response['amount'] =  $plafond->price;
+
+        $erro = null;
+
+        try {
+            $gpo = $this->GPO->index(
+                ($plafond->price * $registration->quantity),
+                $billingphone,
+                $registration->plafond,
+                $registration->code
+            );
+        } catch (\Throwable $e) {
+            $erro = $e->getMessage();
+        }
+
+
+        return view('site.registration.index', compact('gpo', 'erro'));
+
+    }
+
+
+    /**
+     * Display a invoice with certified QrScan
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function invoice($code)
+    {
+
+        $registration = Registration::where('code', $code)->first();
+        $response['registration'] = $registration;
+
+        //plafond
+        $plafond = Plafond::where('name', $registration->plafond)->first();
+
+        $response['amount'] =  $plafond->price;
+
+        $pdf = PDF::loadView('pdf/invoice/participant/index', $response);
+        return $pdf->stream('Documento de Pagamento -' . $code . '.pdf');
     }
 }

@@ -3,7 +3,7 @@
     data-wf-site="675f38d2d1a83e76abfde741">
 
 <head>
-    <title>@yield('titulo') - Angotic ICT FORUM</title>
+    <title>@yield('titulo') - ANGOTIC 2026</title>
     <meta charset="UTF-8" />
     {{-- Protecção contra clickJacking --}}
     {!! header('X-Frame-Options: SAMEORIGIN') !!}
