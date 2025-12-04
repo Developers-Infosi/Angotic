@@ -1956,7 +1956,7 @@ p {
 
 .overlay-hero {
   z-index: 1;
-  background-image: linear-gradient(#000000c7, #000000c7), url('../images/banners/EU_AU flags.jpg');
+  background-image: linear-gradient(#000000c7, #000000c7), url('../img/banner/bn-2.jpg');
   background-position: 0 0, 100% 100%;
   justify-content: center;
   align-items: center;
@@ -3659,7 +3659,7 @@ p {
 }
 
 .section-10._3 {
-  background-image: linear-gradient(#000000db, #000000db), url('../images/banners/EU_AU flags.jpg');
+  background-image: linear-gradient(#000000db, #000000db), url('../img/banner/bn-2.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -5453,7 +5453,7 @@ p {
 }
 
 .section-16 {
-  background-image: linear-gradient(#e0b11994, #e0b11994), url('../images/banners/EU_AU flags.jpg');
+  background-image: linear-gradient(#e0b11994, #e0b11994), url('../img/banner/bn-2.jpg');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   align-items: center;
@@ -5464,7 +5464,7 @@ p {
 }
 
 .section-16._1 {
-  background-image: linear-gradient(#20201dbf, #20201dbf), url('../images/banners/EU_AU flags.jpg');
+  background-image: linear-gradient(#20201dbf, #20201dbf), url('../img/banner/bn-2.jpg');
   background-position: 0 0, 50%;
   background-size: auto, cover;
 }

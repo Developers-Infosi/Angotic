@@ -3,36 +3,37 @@
 @section('content')
 
     <section class="main">
-        <div data-poster-url="videos/ANGOLA-HUB-TRASPORTE-E-LOGISTICA-2025_SEM-GRAFISMO-1-poster-00001.jpg"
-            data-video-urls="videos/ANGOLA-HUB-TRASPORTE-E-LOGISTICA-2025_SEM-GRAFISMO-1-transcode.mp4,videos/ANGOLA-HUB-TRASPORTE-E-LOGISTICA-2025_SEM-GRAFISMO-1-transcode.webm"
+        <div data-poster-url="/site/video/show.png" data-video-urls="/site/video/show.mp4,/site/video/show.webm"
             data-autoplay="true" data-loop="true" data-wf-ignore="true"
             class="background-video w-background-video w-background-video-atom"><video
                 id="30d6608a-a20f-bf68-db81-64cb722664e9-video" autoplay="" loop=""
-                style="background-image:url(&quot;videos/ANGOLA-HUB-TRASPORTE-E-LOGISTICA-2025_SEM-GRAFISMO-1-poster-00001.jpg&quot;)"
-                muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
-                <source src="videos/spot.mp4" data-wf-ignore="true">
-                <source src="videos/spot.webm" data-wf-ignore="true">
+                style="background-image:url(/site/video/show.png)" muted="" playsinline="" data-wf-ignore="true"
+                data-object-fit="cover">
+                <source src="/site/video/show.mp4" data-wf-ignore="true">
+                <source src="/site/video/show.webm" data-wf-ignore="true">
             </video>
             <div class="div-block-293">
                 <div class="contain">
                     <div class="div-block-182-copy">
                         <div class="div-block-181">
                             <div class="div-block-3 div-block-140">
-                                <h1 class="heading white">Angola ICT Forum  ANGOTIC 2026<h1>
+                                <h1 class="heading white">Angola ICT Forum ANGOTIC 2026<h1>
                             </div>
 
                             <div class="div-block-140 white">
                                 <div class="text-block-56 _4">“NA ROTA DA TRANSFORMAÇÃO DIGITAL”</div>
                                 <div class="div-block-294">
                                     <div class="text-block-102 _1"> 11 a 13 de Junho de 2026</div>
-                                    <div class="text-block-102">CCTA - Centro de Convenções de Talatona, Luanda, Angola</div>
+                                    <div class="text-block-102">CCTA - Centro de Convenções de Talatona, Luanda, Angola
+                                    </div>
                                 </div><img src="images/69e8c04a-5332-4ea2-9f95-51b95033e5ab.png" loading="lazy"
                                     sizes="(max-width: 1921px) 100vw, 1921px"
                                     srcset="images/69e8c04a-5332-4ea2-9f95-51b95033e5ab-p-500.png 500w, images/69e8c04a-5332-4ea2-9f95-51b95033e5ab-p-800.png 800w, images/69e8c04a-5332-4ea2-9f95-51b95033e5ab-p-1080.png 1080w, images/69e8c04a-5332-4ea2-9f95-51b95033e5ab-p-1600.png 1600w, images/69e8c04a-5332-4ea2-9f95-51b95033e5ab.png 1921w"
                                     alt="" class="image-29">
                             </div>
                             <div class="div-block-183">
-                                <a href="{{ route('site.registration.index') }}" class="button-wellow w-button">Participar</a>
+                                <a href="{{ route('site.registration.index') }}"
+                                    class="button-wellow w-button">Participar</a>
                                 <a href="{{ route('site.schedule') }}" class="button red w-button">Agenda</a>
                             </div>
                             <div class="sadc texto">
@@ -202,12 +203,14 @@
         <div class="contain">
             <div class="div-block-184">
                 <div class="div-block-236 t">
-                    <h1 class="heading-13 h">7.ª Cimeira União Africana - União Europeia</h1>
-                    <p class="paragraph-12 _1">Renovar e reforçar a parceria estratégica entre a União Africana (UA) e a
-                        União
-                        Europeia (UE), com foco na implementação dos compromissos assumidos na cimeira anterior (Bruxelas
-                        2022) e na
-                        definição de novos eixos de cooperação até 2030.</p>
+                    <h1 class="heading-13 h">Angola ICT Forum - ANGOTIC 2026</h1>
+                    <p class="paragraph-12 _1">Com foco na digitalização, modernização, oferta de serviços de proximidade,
+                        inovação sustentável, inclusão e reforço da cooperação, espera-se que o Angotic
+                        2026 evidencie-se o melhor da capacidade criativa e inovadora das empresas do
+                        sector das TIC, quer nacionais como estrangeiras, bem como promova a abordagem em torno de questões
+                        estruturantes do sector desde a inteligência artificial,
+                        fake news, governação electrónica, produtos e serviços locais, televisão digital,
+                        data center, e não só.</p>
                     <div class="div-block-310">
                         <a href="page/tabela-geral-de-precos.html" class="button-wellow w-button">participar</a>
                     </div>
