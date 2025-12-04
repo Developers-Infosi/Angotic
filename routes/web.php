@@ -31,7 +31,7 @@ Route::get('noticias', ['as' => 'site.news', 'uses' => 'Site\NewsController@inde
 Route::get('noticia/{name}', ['as' => 'site.news.show', 'uses' => 'Site\NewsController@show']);
 /**End news */
 /** participantes */
-Route::get('participantes', ['as' => 'site.registration', 'uses' => 'Site\RegistrationController@create']);
+Route::get('participantes', ['as' => 'site.registration.index', 'uses' => 'Site\RegistrationController@create']);
 Route::post('participantes/store', ['as' => 'site.registration.store', 'uses' => 'Site\RegistrationController@store']);
 Route::get('participantes/invoice/{code}', ['as' => 'site.registration.invoice', 'uses' => 'Site\RegistrationController@invoice']);
 Route::get('participantes/pagamento-express/{code}', ['as' => 'site.registration.payexpress', 'uses' => 'Site\RegistrationController@payexpress']);
@@ -39,6 +39,7 @@ Route::get('participantes/pagamento-express/{code}', ['as' => 'site.registration
 Route::get('Eu-vou', ['as' => 'site.frame', 'uses' => 'Site\FrameController@index']);
 Route::get('contactos', ['as' => 'site.contact', 'uses' => 'Site\ContactController@index']);
 Route::post('site/help/email', ['as' => 'site.help.email', 'uses' => 'Site\Email\HelpController@send']);
+Route::get('informações-uteis', ['as' => 'site.information', 'uses' => 'Site\InformationController@index']);
 Route::get('media-kit', ['as' => 'site.mediakit', 'uses' => 'Site\MediakitController@index']);
 Route::get('politicas-de-privacidade', ['as' => 'site.policyPrivacy', 'uses' => 'Site\PolicyPrivacyController@index']);
 
