@@ -24,7 +24,7 @@
                                  <div>Agenda</div>
                              </a>
                              <a href="{{ route('site.registration.index') }}" class="link-9 menu w-inline-block">
-                                 <div>Participantes</div>
+                                 <div>Participar</div>
                              </a>
                          </div>
                          <div class="div-block-162">
@@ -80,44 +80,37 @@
                      <a href="{{ route('site.home') }}" aria-current="page" class="link-9 w-inline-block w--current">
                          <div>Home</div>
                      </a>
-                     <a href="page/sobre-o-summit.html" class="link-9 w-inline-block">
-                         <div>Sobre a 7.ª Cimeira</div>
+                     <a href="{{ route('site.about') }}" class="link-9 w-inline-block">
+                         <div>SOBRE O FÓRUM</div>
                      </a>
-                     <a href="page/cerimonia-de-abertura.html" class="link-9 w-inline-block">
-                         <div>Cerimonia de abertura</div>
+                     <a href="{{ route('site.schedule') }}" class="link-9 w-inline-block">
+                         <div>AGENDA</div>
                      </a>
-                     <a href="page/progamacao.html" class="link-9 w-inline-block">
-                         <div>Programação</div>
+                     <a href="{{ route('site.speaker') }}" class="link-9 w-inline-block">
+                         <div>SPEAKERS</div>
                      </a>
-                     <a href="page/business-lounge.html" class="link-9 w-inline-block">
-                         <div>business lounge</div>
+                     <a href="{{ route('site.home') }}" class="link-9 w-inline-block">
+                         <div>PATROCINADORES</div>
                      </a>
-
-                     <a href="page/speakers.html" class="link-9 w-inline-block">
-                         <div>speakers</div>
+                     <a href="{{ route('site.home') }}" class="link-9 w-inline-block">
+                         <div>EXPOSITORES</div>
                      </a>
-                     <a href="page/sponsors.html" class="link-9 w-inline-block">
-                         <div>Sponsors</div>
+                     <a href="{{ route('site.home') }}" class="link-9 w-inline-block">
+                         <div>STARTUPS</div>
                      </a>
-
-                     <a href="news/list.html" class="link-9 w-inline-block">
-                         <div>Noticias</div>
+                     <a href="{{ route('site.home') }}" class="link-9 w-inline-block">
+                         <div>MEDIA</div>
                      </a>
 
-
-                     <a href="page/informacoes-uteis.html" class="link-9 w-inline-block">
+                     <a href="{{ route('site.home') }}" class="link-9 w-inline-block">
                          <div>Informações Úteis</div>
                      </a>
-                     <a href="page/sponsors.html" class="link-9 w-inline-block">
-                         <div>Visit Luanda</div>
+
+                     <a href="{{ route('site.home') }}" class="link-9 w-inline-block">
+                         <div>PARTICIPAR</div>
                      </a>
 
-
-                     <a href="page/publico.html" class="link-9 w-inline-block">
-                         <div>Registra-se</div>
-                     </a>
-
-                     <a href="page/contactos.html" class="link-9 w-inline-block">
+                     <a href="{{ route('site.home') }}" class="link-9 w-inline-block">
                          <div>Contactos</div>
                      </a>
                  </div>
