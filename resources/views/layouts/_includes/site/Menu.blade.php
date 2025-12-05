@@ -14,7 +14,7 @@
                                  class="link-9 menu w-inline-block w--current">
                                  <div>Sobre o ANGOTIC</div>
                              </a>
-                             <a href="{{ route('site.home') }}" class="link-9 menu w-inline-block">
+                             <a href="{{ route('site.schedule') }}" class="link-9 menu w-inline-block">
                                  <div>Agenda</div>
                              </a>
                              <a href="{{ route('site.home') }}" class="link-9 menu w-inline-block">
@@ -76,10 +76,10 @@
                      <a href="{{ route('site.home') }}" aria-current="page" class="link-9 w-inline-block w--current">
                          <div>Home</div>
                      </a>
-                     <a href="{{ route('site.home') }}" class="link-9 w-inline-block">
+                     <a href="{{ route('site.about') }}" class="link-9 w-inline-block">
                          <div>Sobre o ANGOTIC</div>
                      </a>
-                     <a href="{{ route('site.home') }}" class="link-9 w-inline-block">
+                     <a href="{{ route('site.schedule') }}" class="link-9 w-inline-block">
                          <div>AGENDA</div>
                      </a>
                      <a href="{{ route('site.home') }}" class="link-9 w-inline-block">
