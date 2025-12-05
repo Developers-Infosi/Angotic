@@ -49,7 +49,7 @@
                 .className += t + "touch")
         }(window, document);
     </script>
-    <link href="/site/img/logo/icon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="/site/img/logo/favicon-50x.png" rel="shortcut icon" type="image/x-icon">
     <link href="/site/img/logo/icon.png" rel="apple-touch-icon">
    
   

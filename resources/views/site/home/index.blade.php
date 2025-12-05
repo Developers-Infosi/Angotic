@@ -26,15 +26,12 @@
                                     <div class="text-block-102 _1"> 11 a 13 de Junho de 2026</div>
                                     <div class="text-block-102">CCTA - Centro de Convenções de Talatona, Luanda, Angola
                                     </div>
-                                </div><img src="images/69e8c04a-5332-4ea2-9f95-51b95033e5ab.png" loading="lazy"
-                                    sizes="(max-width: 1921px) 100vw, 1921px"
-                                    srcset="images/69e8c04a-5332-4ea2-9f95-51b95033e5ab-p-500.png 500w, images/69e8c04a-5332-4ea2-9f95-51b95033e5ab-p-800.png 800w, images/69e8c04a-5332-4ea2-9f95-51b95033e5ab-p-1080.png 1080w, images/69e8c04a-5332-4ea2-9f95-51b95033e5ab-p-1600.png 1600w, images/69e8c04a-5332-4ea2-9f95-51b95033e5ab.png 1921w"
-                                    alt="" class="image-29">
+                                </div>
+                              
                             </div>
                             <div class="div-block-183">
-                                <a href="{{ route('site.registration.index') }}"
-                                    class="button-wellow w-button">Participar</a>
-                                <a href="{{ route('site.schedule') }}" class="button red w-button">Agenda</a>
+                                <a href="#" class="button-wellow w-button">Participar</a>
+                                <a href="{{ route('site.home') }}" class="button red w-button">Agenda</a>
                             </div>
 
                         </div>
@@ -150,7 +147,7 @@
                         fake news, governação electrónica, produtos e serviços locais, televisão digital,
                         data center, e não só.</p>
                     <div class="div-block-310">
-                        <a href="{{ route('site.registration.index') }}" class="button-wellow w-button">participar</a>
+                        <a href="{{ route('site.home') }}" class="button-wellow w-button">participar</a>
                     </div>
                 </div>
                 <div class="div-block-238"></div>
@@ -249,26 +246,24 @@
         </div>
     </section>
     <section class="section-34">
+
         <div class="contain">
             <div class="div-block-312">
                 <div class="div-block-7 _6 middle">
-                    <h2 class="heading-13">Organização</h2>
+                    <h2 class="heading-13">Realização</h2>
                     <div class="linha-vermelha"></div>
                 </div>
-                <div class="w-layout-grid grid-50">
-                    <a target="_blank" href="https://au.int/" class="card-slide _0 w-inline-block">
-                        <div class="participante"><img alt="" src="images/logo/flag_ua.png" loading="lazy"
-                                class="foto-1"></div>
+                <div class="div-block-178">
+                    <a href="https://minttics.gov.ao" class="crap w-inline-block">
+                        <img src="/site/img/logo/minttics.png" loading="lazy" width="158" alt=""
+                            class="image-18">
                     </a>
-                    <a target="_blank" href="https://european-union.europa.eu/index_pt"
-                        class="card-slide _0 w-inline-block">
-                        <div class="participante"><img loading="lazy" src="images/logo/flag_ue.png" alt=""
-                                class="foto-1"></div>
-                    </a>
-
                 </div>
             </div>
-
+            
         </div>
+
     </section>
+    <div class="code-embed-3 w-embed w-iframe"><iframe width="100%" height="500" src="https://www.openstreetmap.org/export/embed.html?bbox=13.193582296371462%2C-8.916171011031365%2C13.199483156204224%2C-8.913160828515126&amp;layer=mapnik&amp;marker=-8.914665922874088%2C13.196532726287842" style="border: 1px solid black"></iframe><br></div>
+
 @endsection

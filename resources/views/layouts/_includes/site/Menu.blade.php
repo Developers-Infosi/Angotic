@@ -6,13 +6,7 @@
                  <div class="nav-wrapper">
                      <div class="div-block-298">
                          <a href="{{ route('site.home') }}" class="the-brand w-inline-block"></a>
-                         <div class="apoio mobile">
-                             <div class="div-block-139">
-                                 <img width="135" loading="lazy" alt="" src="/img/logo/color.jpg"
-                                     class="image-19">
-                             </div>
-                         </div>
-
+                        
                      </div>
                      <div class="div-block-299">
                          <div class="div-block-180">
@@ -20,10 +14,10 @@
                                  class="link-9 menu w-inline-block w--current">
                                  <div>Sobre o ANGOTIC</div>
                              </a>
-                             <a href="{{ route('site.schedule') }}" class="link-9 menu w-inline-block">
+                             <a href="{{ route('site.home') }}" class="link-9 menu w-inline-block">
                                  <div>Agenda</div>
                              </a>
-                             <a href="{{ route('site.registration.index') }}" class="link-9 menu w-inline-block">
+                             <a href="{{ route('site.home') }}" class="link-9 menu w-inline-block">
                                  <div>Participar</div>
                              </a>
                          </div>
@@ -80,13 +74,13 @@
                      <a href="{{ route('site.home') }}" aria-current="page" class="link-9 w-inline-block w--current">
                          <div>Home</div>
                      </a>
-                     <a href="{{ route('site.about') }}" class="link-9 w-inline-block">
+                     <a href="{{ route('site.home') }}" class="link-9 w-inline-block">
                          <div>Sobre o ANGOTIC</div>
                      </a>
-                     <a href="{{ route('site.schedule') }}" class="link-9 w-inline-block">
+                     <a href="{{ route('site.home') }}" class="link-9 w-inline-block">
                          <div>AGENDA</div>
                      </a>
-                     <a href="{{ route('site.speaker') }}" class="link-9 w-inline-block">
+                     <a href="{{ route('site.home') }}" class="link-9 w-inline-block">
                          <div>SPEAKERS</div>
                      </a>
                      <a href="{{ route('site.home') }}" class="link-9 w-inline-block">

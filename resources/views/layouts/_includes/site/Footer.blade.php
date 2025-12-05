@@ -1,15 +1,8 @@
-<div class="code-embed-3 w-embed w-iframe">
-    <iframe width="100%" height="500"
-        src="https://www.openstreetmap.org/export/embed.html?bbox=13.2330%2C-8.8150%2C13.2420%2C-8.8090&amp;layer=mapnik&amp;marker=-8.8119%2C13.2379"
-        style="border: 1px solid black">
-    </iframe>
-    <br>
-</div>
 <div class="footer _1">
     <div class="contain">
         <div class="w-layout-grid grid-6">
             <div id="w-node-a5afc7b8-20e9-5b6a-f082-c37cde0c073a-de0c0737">
-
+                <div class="div-block-15"></div>
                 <div>
                     <p class="paragraph-3">
                         Com foco na digitalização, modernização, oferta de serviços de proximidade, inovação
@@ -26,27 +19,25 @@
                         <div class="text-block-117">Descarregue a Brochura</div>
                     </div>
                     <nav class="dropdown-list-3 w-dropdown-list">
-                        <a href="https://drive.google.com/file/d/1xIuLTzKccZVI1j_cugRTsT9459Ymk5Vq/view?usp=sharing"
-                            target="_blank" class="dropdown-link-2 w-dropdown-link">Em Português</a>
-                        <a href="https://drive.google.com/file/d/1puVpzomyGjQDgvkp7Lx_Nw8BqXIjUDmR/view?usp=sharing"
-                            target="_blank" class="dropdown-link-2 w-dropdown-link">Em Inglês</a>
-                        <a href="https://drive.google.com/file/d/1Jm8Q9LP5x1WrZmwES8QIS7Ad-KdDixGl/view?usp=sharing"
-                            class="dropdown-link-2 _1 w-dropdown-link">Em Francês</a>
+                        <a href="/site/pdf/BROCHURA.pdf" target="_blank" class="dropdown-link-2 w-dropdown-link">Em
+                            Português</a>
+                        <a href="" target="_blank" class="dropdown-link-2 w-dropdown-link">Em Inglês</a>
+
                     </nav>
                 </div>
-                <a href="page/sobre-o-summit.html" class="link-5">Sobre a 7ª Cimeira</a>
-                <a href="page/informacoes-uteis.html" class="link-5">Informações Uteis</a>
-                <a href="news/list.html" class="link-5">Noticias</a>
-                <a href="page/contactos.html" class="link-5">Contactos</a>
-                <a href="#" class="link-5">Politica de Privacidade</a>
+                <a href="{{ route('site.home') }}" class="link-5">Sobre o ANGOTIC</a>
+                <a href="{{ route('site.home') }}" class="link-5">Informações Uteis</a>
+                <a href="{{ route('site.home') }}" class="link-5">Noticias</a>
+                <a href="{{ route('site.home') }}" class="link-5">Contactos</a>
+                <a href="{{ route('site.home') }}" class="link-5">Media Kit</a>
+                <a href="{{ route('site.home') }}" class="link-5">Politica de Privacidade</a>
             </div>
             <div id="w-node-a5afc7b8-20e9-5b6a-f082-c37cde0c074c-de0c0737" class="_2 _900">
-                <h3 class="heading-5 trust">Registra-se</h3>
-                <a href="page/cerimonia-de-abertura.html" class="link-5">Cerimónia de Abertura</a>
-                <a href="page/sponsors.html" class="link-5">Sponsor</a>
-                <a href="page/business-lounge.html" class="link-5">Business Lounge</a>
-                <a href="page/speakers.html" class="link-5">Speakers</a>
-                <a href="page/speakers.html" class="link-5">Participante</a>
+                <h3 class="heading-5 trust">Participar</h3>
+                <a href="{{ route('site.home') }}" class="link-5">Patrocinador</a>
+                <a href="{{ route('site.home') }}" class="link-5">Expositor</a>
+                <a href="{{ route('site.home') }}" class="link-5">Startup</a>
+                <a href="{{ route('site.home') }}" class="link-5">Participante</a>
             </div>
             <div id="w-node-a5afc7b8-20e9-5b6a-f082-c37cde0c075b-de0c0737" class="_2 _900">
                 <h3 class="heading-5 trust">Links uteis </h3>
@@ -59,19 +50,22 @@
         <div class="div">
             <div class="div-block-161">
                 <div class="div-block-159">
-                    <a href="tel:+244935071679" class="link-5">+244 922 000 000</a>
-                    <a href="mailto:geral@angolahubsummit.com?subject=Mensagem%20nova"
-                        class="link-5">geral@mirex.gov.ao</a>
+                    <a href="tel:+244222692970" class="link-5">+244 222 692 970</a>
+                    <a href="mailto:geral@angotic.ao?subject=Mensagem%Info" class="link-5">geral@angotic.ao</a>
                 </div>
                 <div class="div-block-14">
-                    <a href="https://www.facebook.com/share/19Y77myKBE/" class="link-4 w-inline-block"><img
-                            src="images/facebook-2.png" loading="lazy" alt=""></a>
-                    <a href="https://x.com/?s=11" class="link-4 w-inline-block"><img src="images/twitter-2.png"
-                            loading="lazy" alt=""></a>
-                    <a href="https://www.linkedin.com/company//" class="link-4 w-inline-block"><img
-                            src="images/linkedin-1.png" loading="lazy" alt=""></a>
-                    <a href="https://www.youtube.com/@" class="link-4 w-inline-block"><img src="images/youtube.png"
-                            loading="lazy" alt=""></a>
+                    <a href="https://www.facebook.com/angotic" class="link-4 w-inline-block">
+                        <img src="/site/img/icons/facebook-2.png" loading="lazy" alt="">
+                    </a>
+                    <a href="https://x.com/angoticangola" class="link-4 w-inline-block">
+                        <img src="/site/img/icons/twitter-2.png" loading="lazy" alt="">
+                    </a>
+                    <a href="https://www.linkedin.com/company/angoticangola/" class="link-4 w-inline-block">
+                        <img src="/site/img/icons/linkedin-1.png" loading="lazy" alt="">
+                    </a>
+                    <a href="https://www.youtube.com/@AngoticAngola" class="link-4 w-inline-block">
+                        <img src="/site/img/icons/youtube.png" loading="lazy" alt="">
+                    </a>
                 </div>
             </div>
         </div>

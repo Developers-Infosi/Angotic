@@ -15,9 +15,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/site/img/logo/icon.png">
-    <link href="/site/img/logo/icon.png" sizes="16x16" rel="shortcut icon" />
-    <link href="/site/img/logo/icon.png" sizes="32x32" rel="shortcut icon" />
+    <link href="/site/img/logo/favicon-50x.png" rel="shortcut icon" type="image/x-icon">
+    <link href="/site/img/logo/icon.png" rel="apple-touch-icon">
     <title>@yield('titulo') - ANGOTIC 2026</title>
     <!-- Simple bar CSS -->
     <link rel="stylesheet" href="/dashboard/css/simplebar.css">
