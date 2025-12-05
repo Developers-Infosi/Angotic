@@ -15,45 +15,7 @@
         </div>
     </section>
 
-
-    <section class="informa-o ">
-        <div class="contain">
-            <div class="div-block-195">
-                <div class="div-block-172">
-                    <h1 class="heading-13">Ser um Patrocinador Oferece Diversos Benefícios e Vantagens</h1>
-                </div>
-            </div>
-            <div class="div-block-191 _1">
-                <div class="div-block-192">
-                    <div class="text-block-62"><strong class="bold-text-2">Reconhecimento da Marca</strong></div>
-                    <div class="text-block-61">Reforça o valor da marca e fortalece seu posicionamento no mercado, e
-                        facilita o
-                        relacionamento com novos contatos e potenciais clientes. </div>
-                </div>
-                <div class="div-block-192">
-                    <div class="text-block-62"><strong class="bold-text-2">Geração de Leads</strong></div>
-                    <div class="text-block-61">Neste evento a empresa estará frente a frente com um público interessado nos
-                        seus
-                        produtos ou serviços, o número de novos contatos e geração de leads tenderá a ser sempre maior que a
-                        sua
-                        média habitual</div>
-                </div>
-                <div class="div-block-192">
-                    <div class="text-block-62"><strong class="bold-text-2">Fortalecimento de Relacionamentos</strong></div>
-                    <div class="text-block-61">Ser Patrocinador deste evento permitirá que as empresas se conectem
-                        diretamente
-                        com seu
-                        público-alvo, estabelecendo relacionamentos mais profundos e duradouros. </div>
-                </div>
-                <div class="div-block-192">
-                    <div class="text-block-62"><strong class="bold-text-2">Aumento da Credibilidade</strong></div>
-                    <div class="text-block-61">O apoio a este evento contribuíra para a construção de credibilidade da vossa
-                        marca, já que a associação com eventos de qualidade reflete positivamente na percepção pública</div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section-17 cinza">
+<section class="section-17 cinza">
         <div class="contain _0">
             <div class="div-block-7 _6">
                 <div class="div-block-172">
@@ -1152,6 +1114,44 @@
             </div>
         </div>
     </section>
+    <section class="informa-o ">
+        <div class="contain">
+            <div class="div-block-195">
+                <div class="div-block-172">
+                    <h1 class="heading-13">Ser um Patrocinador Oferece Diversos Benefícios e Vantagens</h1>
+                </div>
+            </div>
+            <div class="div-block-191 _1">
+                <div class="div-block-192">
+                    <div class="text-block-62"><strong class="bold-text-2">Reconhecimento da Marca</strong></div>
+                    <div class="text-block-61">Reforça o valor da marca e fortalece seu posicionamento no mercado, e
+                        facilita o
+                        relacionamento com novos contatos e potenciais clientes. </div>
+                </div>
+                <div class="div-block-192">
+                    <div class="text-block-62"><strong class="bold-text-2">Geração de Leads</strong></div>
+                    <div class="text-block-61">Neste evento a empresa estará frente a frente com um público interessado nos
+                        seus
+                        produtos ou serviços, o número de novos contatos e geração de leads tenderá a ser sempre maior que a
+                        sua
+                        média habitual</div>
+                </div>
+                <div class="div-block-192">
+                    <div class="text-block-62"><strong class="bold-text-2">Fortalecimento de Relacionamentos</strong></div>
+                    <div class="text-block-61">Ser Patrocinador deste evento permitirá que as empresas se conectem
+                        diretamente
+                        com seu
+                        público-alvo, estabelecendo relacionamentos mais profundos e duradouros. </div>
+                </div>
+                <div class="div-block-192">
+                    <div class="text-block-62"><strong class="bold-text-2">Aumento da Credibilidade</strong></div>
+                    <div class="text-block-61">O apoio a este evento contribuíra para a construção de credibilidade da vossa
+                        marca, já que a associação com eventos de qualidade reflete positivamente na percepção pública</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 
 
     <section class="section-29 cinza">
