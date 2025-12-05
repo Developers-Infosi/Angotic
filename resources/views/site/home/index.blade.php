@@ -48,20 +48,20 @@
                     <div class="text-block-15">EXPOSITORES</div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">10</div>
-                    <div class="text-block-15">PAINÉIS de Alto NÍVEL</div>
+                    <div class="text-block-13">117</div>
+                    <div class="text-block-15">EMPRESAS</div>
                 </div>
                 <div class="div-block-130">
                     <div class="text-block-13">5</div>
                     <div class="text-block-15">Workshops </div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">+25000</div>
-                    <div class="text-block-15">Participantes</div>
+                    <div class="text-block-13">+20000</div>
+                    <div class="text-block-15">PARTICIPANTES</div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">+30</div>
-                    <div class="text-block-15">Speakers</div>
+                    <div class="text-block-13">+100</div>
+                    <div class="text-block-15">PALESTRANTES</div>
                 </div>
                 <div class="div-block-130">
                     <div class="text-block-13">10</div>
@@ -79,12 +79,12 @@
                     <div class="text-block-15">Bolsa de Inovação</div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">+10</div>
-                    <div class="text-block-15">Reuniões B2B<br></div>
+                    <div class="text-block-13">+180</div>
+                    <div class="text-block-15">Startup<br></div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">+5</div>
-                    <div class="text-block-15">Programação<br>Cultural</div>
+                    <div class="text-block-13">+3000</div>
+                    <div class="text-block-15">Crianças<br>Impactadas</div>
                 </div>
             </div>
             <div class="div-block-149">
@@ -93,20 +93,20 @@
                     <div class="text-block-15">EXPOSITORES</div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">10</div>
-                    <div class="text-block-15">PAINÉIS de Alto NÍVEL</div>
+                    <div class="text-block-13">117</div>
+                    <div class="text-block-15">EMPRESAS</div>
                 </div>
                 <div class="div-block-130">
                     <div class="text-block-13">5</div>
                     <div class="text-block-15">Workshops </div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">+25000</div>
-                    <div class="text-block-15">Participantes</div>
+                    <div class="text-block-13">+20000</div>
+                    <div class="text-block-15">PARTICIPANTES</div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">+30</div>
-                    <div class="text-block-15">Speakers</div>
+                    <div class="text-block-13">+100</div>
+                    <div class="text-block-15">PALESTRANTES</div>
                 </div>
                 <div class="div-block-130">
                     <div class="text-block-13">10</div>
@@ -124,12 +124,12 @@
                     <div class="text-block-15">Bolsa de Inovação</div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">+10</div>
-                    <div class="text-block-15">Reuniões B2B<br></div>
+                    <div class="text-block-13">+180</div>
+                    <div class="text-block-15">Startup<br></div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">+5</div>
-                    <div class="text-block-15">Programação<br>Cultural</div>
+                    <div class="text-block-13">+3000</div>
+                    <div class="text-block-15">Crianças<br>Impactadas</div>
                 </div>
             </div>
         </div>
