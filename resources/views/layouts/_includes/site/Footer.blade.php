@@ -19,9 +19,9 @@
                         <div class="text-block-117">Descarregue a Brochura</div>
                     </div>
                     <nav class="dropdown-list-3 w-dropdown-list">
-                        <a href="/site/pdf/BROCHURA.pdf" target="_blank" class="dropdown-link-2 w-dropdown-link">Em
+                        <a href="#" target="_blank" class="dropdown-link-2 w-dropdown-link">Em
                             Português</a>
-                        <a href="" target="_blank" class="dropdown-link-2 w-dropdown-link">Em Inglês</a>
+                        <a href="#" target="_blank" class="dropdown-link-2 w-dropdown-link">Em Inglês</a>
 
                     </nav>
                 </div>
@@ -34,10 +34,10 @@
             </div>
             <div id="w-node-a5afc7b8-20e9-5b6a-f082-c37cde0c074c-de0c0737" class="_2 _900">
                 <h3 class="heading-5 trust">Participar</h3>
-                <a href="{{ route('site.sponsor') }}" class="link-5">Patrocinador</a>
-                <a href="{{ route('site.home') }}" class="link-5">Expositor</a>
-                <a href="{{ route('site.home') }}" class="link-5">Startup</a>
-                <a href="{{ route('site.home') }}" class="link-5">Participante</a>
+                <a href="{{ route('site.sponsor') }}" class="link-5">Patrocinadores</a>
+                <a href="{{ route('site.exhibitor') }}" class="link-5">Expositores</a>
+                <a href="{{ route('site.home') }}" class="link-5">Startups</a>
+                <a href="{{ route('site.home') }}" class="link-5">Participantes</a>
             </div>
             <div id="w-node-a5afc7b8-20e9-5b6a-f082-c37cde0c075b-de0c0737" class="_2 _900">
                 <h3 class="heading-5 trust">Links uteis </h3>

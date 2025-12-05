@@ -86,7 +86,7 @@
                      <a href="{{ route('site.sponsor') }}" class="link-9 w-inline-block">
                          <div>PATROCINADORES</div>
                      </a>
-                     <a href="{{ route('site.sponsor') }}" class="link-9 w-inline-block">
+                     <a href="{{ route('site.exhibitor') }}" class="link-9 w-inline-block">
                          <div>EXPOSITORES</div>
                      </a>
                      <a href="{{ route('site.home') }}" class="link-9 w-inline-block">

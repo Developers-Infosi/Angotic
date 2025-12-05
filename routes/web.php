@@ -21,7 +21,7 @@ Route::get('speakers', ['as' => 'site.speaker', 'uses' => 'Site\SpeakerControlle
 Route::get('speaker/{name}', ['as' => 'site.speaker.show', 'uses' => 'Site\SpeakerController@show']);
 /**End speaker */
 Route::get('patrocinadores', ['as' => 'site.sponsor', 'uses' => 'Site\SponsorController@index']);
-Route::get('startup', ['as' => 'site.startup', 'uses' => 'Site\StartupController@index']);
+Route::get('expositores', ['as' => 'site.exhibitor', 'uses' => 'Site\ExhibitorController@index']);
 /* gallery */
 Route::get('galerias/', ['as' => 'site.gallery', 'uses' => 'Site\GalleryController@index']);
 Route::get('galeria/{name}', ['as' => 'site.gallery.show', 'uses' => 'Site\GalleryController@show']);
