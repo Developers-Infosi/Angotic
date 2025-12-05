@@ -90,7 +90,7 @@
                         </div>
                         <div class="div-block-229 _1">
                             <ul role="list">
-                                <li>Presenciar a abertura: 11/06/2026</li>
+                                <li>Presenciar a abertura (Por Convite Institucional): 11/06/2026</li>
                                 <li>Visitante: 13/06/2026</li>
                                 <li>Patrocinador: 06/06/2026</li>
                                 <li>Expositor: 04/06/2026</li>
