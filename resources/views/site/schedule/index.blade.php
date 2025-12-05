@@ -138,7 +138,7 @@
 
                                 @foreach ($schedulesIII as $item)
                                      <div class="div-block-214">
-                                        <div class="div-block-215">
+                                        <div class="div-block-215 h">
                                             <div class="text-block-72 h textcenter">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
                                         </div>
                                         <div class="div-block-215 evento">
