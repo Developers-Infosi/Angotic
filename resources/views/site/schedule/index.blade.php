@@ -20,10 +20,14 @@
     <section class="section-17 b">
         <div class="contain">
             <div class="div-block-315 _8">
-                <p class="paragraph-13">Os <strong>Delegados do 7.ª Cimeira União Africana - União Europeia </strong>incluem
-                    líderes empresariais, representantes governamentais e especialistas do setor, que desempenham um papel
-                    fundamental nas discussões e decisões estratégicas durante o evento. <br>‍<br>Os Visitantes terão uma
-                    oportunidade única para explorar as últimas tendências, inovações e estabelecer conexões valiosas.</p>
+                <p class="paragraph-13">
+                    Através de palestras, workshops e demonstrações práticas, o evento pretende
+                    inspirar e promover a colaboração e a acção em direcção a um futuro mais
+                    promissor e interconectado.
+                    <br>
+                    O <b>Angotic 2026</b> promete ser um espaço de ideias revolucionárias e parcerias
+                    transformadoras, moldando o curso da inovação global para os anos vindouros.
+                </p>
             </div>
             <div class="div-block-266">
                 <div data-current="Tab 1" data-easing="ease" data-duration-in="300" data-duration-out="100"
@@ -134,23 +138,23 @@
                                     </div>
                                 </div>
 
-                                 @foreach ($schedulesIII as $row)
-                                <div class="div-block-214">
-                                    <div class="div-block-215 h">
-                                        <div class="text-block-72 h">09:00 - 10:30</div>
+                                @foreach ($schedulesIII as $row)
+                                    <div class="div-block-214">
+                                        <div class="div-block-215 h">
+                                            <div class="text-block-72 h">09:00 - 10:30</div>
+                                        </div>
+                                        <div class="div-block-215 evento">
+                                            <div class="text-block-72">Mesa Redonda II</div>
+                                        </div>
+                                        <div class="div-block-215 tema">
+                                            <div class="text-block-72">Transporte Sustentável e Economia Verde</div>
+                                        </div>
+                                        <div class="div-block-215 local">
+                                            <div class="text-block-72">Grande Auditório</div>
+                                        </div>
                                     </div>
-                                    <div class="div-block-215 evento">
-                                        <div class="text-block-72">Mesa Redonda II</div>
-                                    </div>
-                                    <div class="div-block-215 tema">
-                                        <div class="text-block-72">Transporte Sustentável e Economia Verde</div>
-                                    </div>
-                                    <div class="div-block-215 local">
-                                        <div class="text-block-72">Grande Auditório</div>
-                                    </div>
-                                </div>
                                 @endforeach
-                               
+
                             </div>
                         </div>
                     </div>
