@@ -62,19 +62,19 @@
                                     </div>
                                 </div>
 
-                                @foreach ($schedulesI as $row)
+                                @foreach ($schedulesI as $item)
                                     <div class="div-block-214">
                                         <div class="div-block-215 h">
-                                            <div class="text-block-72 h">08:30 - 09:45</div>
+                                            <div class="text-block-72 h">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
                                         </div>
                                         <div class="div-block-215 evento">
-                                            <div class="text-block-72">Recepção e Credenciamento</div>
+                                            <div class="text-block-72">{{ $item->theme }}</div>
                                         </div>
                                         <div class="div-block-215 tema">
-                                            <div class="text-block-72">Welcome</div>
+                                            <div class="text-block-72">{{ $item->program }}</div>
                                         </div>
                                         <div class="div-block-215 local">
-                                            <div class="text-block-72">CCTA</div>
+                                            <div class="text-block-72">{{ $item->room }}</div>
                                         </div>
                                     </div>
                                 @endforeach
