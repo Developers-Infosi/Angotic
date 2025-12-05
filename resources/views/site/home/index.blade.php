@@ -31,7 +31,7 @@
                             </div>
                             <div class="div-block-183">
                                 <a href="#" class="button-wellow w-button">Participar</a>
-                                <a href="{{ route('site.home') }}" class="button red w-button">Agenda</a>
+                                <a href="{{ route('site.schedule') }}" class="button red w-button">Agenda</a>
                             </div>
 
                         </div>
