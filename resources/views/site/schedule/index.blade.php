@@ -65,7 +65,9 @@
                                 @foreach ($schedulesI as $item)
                                     <div class="div-block-214">
                                         <div class="div-block-215 h">
-                                            <div class="text-block-72 h textcenter">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
+                                            <div class="text-block-72 h textcenter">
+                                                {{ date('H:i', strtotime($item->start)) }} -
+                                                {{ date('H:i', strtotime($item->end)) }}</div>
                                         </div>
                                         <div class="div-block-215 evento">
                                             <div class="text-block-72">{{ $item->theme }}</div>
@@ -100,9 +102,11 @@
                                 </div>
 
                                 @foreach ($schedulesII as $item)
-                                     <div class="div-block-214">
+                                    <div class="div-block-214">
                                         <div class="div-block-215 h">
-                                            <div class="text-block-72 h textcenter">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
+                                            <div class="text-block-72 h textcenter">
+                                                {{ date('H:i', strtotime($item->start)) }} -
+                                                {{ date('H:i', strtotime($item->end)) }}</div>
                                         </div>
                                         <div class="div-block-215 evento">
                                             <div class="text-block-72">{{ $item->theme }}</div>
@@ -131,21 +135,31 @@
                                     <div class="div-block-212 tema">
                                         <div class="text-block-71">Tema</div>
                                     </div>
+                                    <div class="div-block-212 evento">
+                                        <div class="text-block-71">Speakers</div>
+                                    </div>
                                     <div class="div-block-212 local">
                                         <div class="text-block-71">Local</div>
                                     </div>
                                 </div>
 
                                 @foreach ($schedulesIII as $item)
-                                     <div class="div-block-214">
+                                    <div class="div-block-214">
                                         <div class="div-block-215 h">
-                                            <div class="text-block-72 h textcenter">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
+                                            <div class="text-block-72 h textcenter">
+                                                {{ date('H:i', strtotime($item->start)) }} -
+                                                {{ date('H:i', strtotime($item->end)) }}</div>
                                         </div>
                                         <div class="div-block-215 evento">
                                             <div class="text-block-72">{{ $item->theme }}</div>
                                         </div>
                                         <div class="div-block-215 tema">
                                             <div class="text-block-72">{{ $item->program }}</div>
+                                        </div>
+                                        <div class="div-block-215 tema">
+                                            <div class="text-block-72">
+                                                <small style="font-size: 16px">{!! html_entity_decode($item->speaker) !!}</small>
+                                            </div>
                                         </div>
                                         <div class="div-block-215 local">
                                             <div class="text-block-72">{{ $item->room }}</div>
