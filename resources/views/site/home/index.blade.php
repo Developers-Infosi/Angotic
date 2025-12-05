@@ -17,7 +17,7 @@
                     <div class="div-block-182-copy">
                         <div class="div-block-181">
                             <div class="div-block-3 div-block-140">
-                                <h1 class="heading white">Angola ICT Forum ANGOTIC 2026<h1>
+                                <h1 class="heading white">ANGOTIC Angola ICT Forum 2026<h1>
                             </div>
 
                             <div class="div-block-140 white">
@@ -138,7 +138,7 @@
         <div class="contain">
             <div class="div-block-184">
                 <div class="div-block-236 t">
-                    <h1 class="heading-13 h">Angola ICT Forum - ANGOTIC 2026</h1>
+                    <h1 class="heading-13 h">ANGOTIC Angola ICT Forum 2026</h1>
                     <p class="paragraph-12 _1">Com foco na digitalização, modernização, oferta de serviços de proximidade,
                         inovação sustentável, inclusão e reforço da cooperação, espera-se que o Angotic
                         2026 evidencie-se o melhor da capacidade criativa e inovadora das empresas do

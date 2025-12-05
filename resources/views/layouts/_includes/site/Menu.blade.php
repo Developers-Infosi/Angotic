@@ -96,7 +96,7 @@
                          <div>MEDIA</div>
                      </a>
 
-                     <a href="{{ route('site.home') }}" class="link-9 w-inline-block">
+                     <a href="{{ route('site.information') }}" class="link-9 w-inline-block">
                          <div>Informações Úteis</div>
                      </a>
 

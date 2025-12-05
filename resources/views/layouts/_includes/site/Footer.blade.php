@@ -26,7 +26,7 @@
                     </nav>
                 </div>
                 <a href="{{ route('site.home') }}" class="link-5">Sobre o ANGOTIC</a>
-                <a href="{{ route('site.home') }}" class="link-5">Informações Uteis</a>
+                <a href="{{ route('site.information') }}" class="link-5">Informações Uteis</a>
                 <a href="{{ route('site.home') }}" class="link-5">Noticias</a>
                 <a href="{{ route('site.home') }}" class="link-5">Contactos</a>
                 <a href="{{ route('site.home') }}" class="link-5">Media Kit</a>

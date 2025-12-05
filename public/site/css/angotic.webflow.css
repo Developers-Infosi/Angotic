@@ -5880,8 +5880,7 @@ p {
 }
 
 .section-17._6000 {
-  margin-top: 120px;
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 70px;
 }
 
@@ -7943,9 +7942,6 @@ p {
   inset: 0%;
 }
 
-.overlay-page._1 {
-  background-image: linear-gradient(270deg, #0000, #141414 89%);
-}
 
 .div-block-290 {
   border-top-left-radius: 5px;
