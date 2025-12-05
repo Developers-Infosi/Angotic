@@ -64,8 +64,8 @@
 
                                 @foreach ($schedulesI as $item)
                                     <div class="div-block-214">
-                                        <div class="div-block-215">
-                                            <div class="text-block-72">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
+                                        <div class="div-block-215 h">
+                                            <div class="text-block-72 h textcenter">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
                                         </div>
                                         <div class="div-block-215 evento">
                                             <div class="text-block-72">{{ $item->theme }}</div>
@@ -101,8 +101,8 @@
 
                                 @foreach ($schedulesII as $item)
                                      <div class="div-block-214">
-                                        <div class="div-block-215">
-                                            <div class="text-block-72">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
+                                        <div class="div-block-215 h">
+                                            <div class="text-block-72 h textcenter">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
                                         </div>
                                         <div class="div-block-215 evento">
                                             <div class="text-block-72">{{ $item->theme }}</div>
@@ -122,7 +122,7 @@
                             <div class="div-block-213">
 
                                 <div class="div-block-211">
-                                    <div class="div-block-212">
+                                    <div class="div-block-212 h">
                                         <div class="text-block-71">Horário</div>
                                     </div>
                                     <div class="div-block-212 evento">
@@ -139,7 +139,7 @@
                                 @foreach ($schedulesIII as $item)
                                      <div class="div-block-214">
                                         <div class="div-block-215">
-                                            <div class="text-block-72">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
+                                            <div class="text-block-72 h textcenter">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
                                         </div>
                                         <div class="div-block-215 evento">
                                             <div class="text-block-72">{{ $item->theme }}</div>
