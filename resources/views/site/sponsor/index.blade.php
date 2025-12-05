@@ -1178,7 +1178,7 @@
                             "fileName": "Layout-angotic2025.jpg",
                             "fileSize": 1382936,
                             "height": 1215,
-                            "url": "https://angotic.ao/site/img/mapa/Layout-angotic2025.jpg",
+                            "url": "/site/img/mapa/Layout-angotic2025.jpg",
                             "width": 2160,
                             "type": "image"
                             }
