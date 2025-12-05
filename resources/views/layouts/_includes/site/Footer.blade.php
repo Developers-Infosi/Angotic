@@ -34,7 +34,7 @@
             </div>
             <div id="w-node-a5afc7b8-20e9-5b6a-f082-c37cde0c074c-de0c0737" class="_2 _900">
                 <h3 class="heading-5 trust">Participar</h3>
-                <a href="{{ route('site.home') }}" class="link-5">Patrocinador</a>
+                <a href="{{ route('site.sponsor') }}" class="link-5">Patrocinador</a>
                 <a href="{{ route('site.home') }}" class="link-5">Expositor</a>
                 <a href="{{ route('site.home') }}" class="link-5">Startup</a>
                 <a href="{{ route('site.home') }}" class="link-5">Participante</a>

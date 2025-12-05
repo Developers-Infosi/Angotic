@@ -8,14 +8,12 @@ use App\Models\Exhibitor;
 use Illuminate\Http\Request;
 use PDF;
 
-class ExhibitorController extends Controller
+class SponsorController extends Controller
 {
 
-    public function create()
+    public function index()
     {
-        $response['title'] = 'Expositor';
-        $response['perpage'] = 'exhibitor';
-        return view('site.exhibitor.index', $response);
+        return view('site.sponsor.index');
     }
 
     public function store(Request $request)
