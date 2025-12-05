@@ -627,7 +627,7 @@
                         <div class="div-block-252">
                             <div class="item-tb">
                                 <div class="div-block-253 _0">
-                                    <div class="text-block-83 _1 textred">SEM EXPOSITOR</div>
+                                    <div class="text-block-83 _1 textwhite">SEM EXPOSITOR</div>
                                 </div>
                             </div>
                             <div class="item-tb">
@@ -868,7 +868,7 @@
                         <div class="div-block-252">
                             <div class="item-tb">
                                 <div class="div-block-253 _0">
-                                    <div class="text-block-83 _1 textred">SEM EXPOSITOR</div>
+                                    <div class="text-block-83 _1 textwhite">SEM EXPOSITOR</div>
                                 </div>
                             </div>
                             <div class="item-tb">
@@ -1052,7 +1052,7 @@
                         <div class="div-block-252">
                             <div class="item-tb">
                                 <div class="div-block-253 _0">
-                                    <div class="text-block-83 _1 textred">SEM EXPOSITOR</div>
+                                    <div class="text-block-83 _1 textwhite">SEM EXPOSITOR</div>
                                 </div>
                             </div>
                             <div class="item-tb">
@@ -1239,7 +1239,7 @@
                         <div class="div-block-252">
                             <div class="item-tb">
                                 <div class="div-block-253 _0">
-                                    <div class="text-block-83 _1 textred">SEM EXPOSITOR</div>
+                                    <div class="text-block-83 _1 textwhite">SEM EXPOSITOR</div>
                                 </div>
                             </div>
                             <div class="item-tb">
@@ -1333,7 +1333,7 @@
                         <div class="div-block-252">
                             <div class="item-tb">
                                 <div class="div-block-253 _0">
-                                    <div class="text-block-83 _1 textred">SEM EXPOSITOR</div>
+                                    <div class="text-block-83 _1 textwhite">SEM EXPOSITOR</div>
                                 </div>
                             </div>
                             <div class="item-tb">

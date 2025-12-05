@@ -6,7 +6,7 @@
                  <div class="nav-wrapper">
                      <div class="div-block-298">
                          <a href="{{ route('site.home') }}" class="the-brand w-inline-block"></a>
-                        
+
                      </div>
                      <div class="div-block-299">
                          <div class="div-block-180">
@@ -34,6 +34,8 @@
                                      }
                                  </script>
                                  <script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer=""></script>
+
+                                
                              </div>
                          </div>
                          <div class="div-block-139 _1">
@@ -87,7 +89,7 @@
                          <div>PATROCINADORES</div>
                      </a>
                      <a href="{{ route('site.exhibitor') }}" class="link-9 w-inline-block">
-                         <div>EXPOSITORES</div>
+                         <div>EXPOSITORES & RESTAURAÇÃO</div>
                      </a>
                      <a href="{{ route('site.home') }}" class="link-9 w-inline-block">
                          <div>STARTUPS</div>

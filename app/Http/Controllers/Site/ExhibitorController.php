@@ -13,7 +13,7 @@ class ExhibitorController extends Controller
 
     public function index()
     {
-        return view('site.sponsor.index');
+        return view('site.exhibitor.index');
     }
 
     public function store(Request $request)
