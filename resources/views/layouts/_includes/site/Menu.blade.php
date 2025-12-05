@@ -81,7 +81,7 @@
                          <div>Home</div>
                      </a>
                      <a href="{{ route('site.about') }}" class="link-9 w-inline-block">
-                         <div>SOBRE O FÓRUM</div>
+                         <div>Sobre o ANGOTIC</div>
                      </a>
                      <a href="{{ route('site.schedule') }}" class="link-9 w-inline-block">
                          <div>AGENDA</div>

@@ -13,11 +13,11 @@
     {!! RecaptchaV3::initJs() !!}
 
 
-    <meta content="Angotic ICT FORUM" name="description">
-    <meta content="Angotic ICT FORUM" property="og:title">
-    <meta content="Angotic ICT FORUM" property="og:description">
-    <meta content="Angotic ICT FORUM" property="twitter:title">
-    <meta content="Angotic ICT FORUM" property="twitter:description">
+    <meta content="Angola ICT FORUM - ANGOTIC 2026" name="description">
+    <meta content="Angola ICT FORUM - ANGOTIC 2026" property="og:title">
+    <meta content="Angola ICT FORUM - ANGOTIC 2026" property="og:description">
+    <meta content="Angola ICT FORUM - ANGOTIC 2026" property="twitter:title">
+    <meta content="Angola ICT FORUM - ANGOTIC 2026" property="twitter:description">
 
     <meta property="og:type" content="website">
     <meta content="summary_large_image" name="twitter:card">
@@ -49,8 +49,8 @@
                 .className += t + "touch")
         }(window, document);
     </script>
-    <link href="/site/images/favicon.png" rel="shortcut icon" type="image/x-icon">
-    <link href="/site/images/webclip.png" rel="apple-touch-icon">
+    <link href="/site/img/logo/icon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="/site/img/logo/icon.png" rel="apple-touch-icon">
    
   
 

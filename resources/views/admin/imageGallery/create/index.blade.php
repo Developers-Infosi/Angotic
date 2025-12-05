@@ -1,11 +1,12 @@
 @extends('layouts.merge.dashboard')
-@section('titulo', 'Create Operational Team')
+@section('titulo', 'Adicionar Imagens da Galeria')
 
 @section('content')
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                Create Operational Team
+                <a href="{{ route('admin.gallery.index') }}"><u>Listar Galerias</u></a> >
+                Adicionar Imagens da Galeria: {{ $gallery->name }}
             </h2>
         </div>
     </div>
@@ -20,14 +21,14 @@
                     </ul>
                 </div>
             @endif
-            <form action="{{ route('admin.team.store') }}" method="POST" enctype="multipart/form-data" class="row">
-                @csrf
-                @include('forms._formTeam.index')
-                <div class="col-md-12">
 
+            <form action='{{ url("admin/imageGallery/store/$gallery->id") }}' enctype="multipart/form-data" method="POST" class="row">
+                @csrf
+                @include('forms._formImageGallery.index')
+                <div class="col-md-12">
                     <div class="form-group text-center">
                         <button type="submit" class="btn px-5 col-md-4 btn-success">
-                            Save
+                            Salvar Imagens
                             <span class="fe fe-chevron-right fe-16"></span>
                         </button>
 

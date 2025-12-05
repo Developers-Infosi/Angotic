@@ -92,24 +92,15 @@ class UserController extends Controller
                 'email' => 'required|string|email|max:255',
                 'password' => ['required', 'confirmed', Rules\Password::defaults()],
             ]);
+            $user = User::find($id)->update([
+                'name' => $request->name,
+                'email' => $request->email,
+                'level' => $request->level,
+                'password' => Hash::make($request->password),
+            ]);
 
-            $user = User::findOrFail($id);
-
-            // Se for administrador, pode atualizar o level
-            if (Auth::user()->level == 'Administrador') {
-                $user->level = $request->level;
-            }
-
-            // Atualizar os outros campos sempre
-            $user->name = $request->name;
-            $user->email = $request->email;
-            $user->password = Hash::make($request->password);
-
-            $user->save();
-
-            // Logger
+            //Logger
             $this->Logger->log('info', 'Editou um Utilizador com o identificador ' . $id);
-
             return redirect()->route('admin.home')->with('edit', '1');
         }
     }

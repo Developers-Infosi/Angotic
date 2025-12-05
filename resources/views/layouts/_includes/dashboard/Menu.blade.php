@@ -40,7 +40,7 @@
             <!-- nav bar -->
             <div class="w-100  d-flex">
                 <a class="navbar-brand mx-auto mt-5 flex-fill text-center" href="{{ route('admin.home') }}">
-                    <img rel="icon" src="/site/images/logo/logo-v.png" style="width:200px; margin:auto" />
+                    <img rel="icon" src="/site/img/logo/color.png" style="width:200px; margin:auto" />
 
                 </a>
             </div>
@@ -61,7 +61,7 @@
                     <li class="nav-item w-100">
                         <a class="nav-link" href="{{ route('site.home') }}" target="_blank">
                             <i class="fe fe-globe fe-16"></i>
-                            <span class="ml-3 item-text">Registration Form</span>
+                            <span class="ml-3 item-text">Site</span>
                         </a>
                     </li>
                 </ul>
@@ -69,44 +69,19 @@
 
                 {{-- Menu Registration --}}
                 <p class="text-muted nav-heading mt-2 mb-1">
-                    <span> Participants </span>
+                    <span> Participantes </span>
                 </p>
                 <ul class="navbar-nav flex-fill w-100 mb-2">
                     <li class="nav-item w-100">
                         <a class="nav-link" href="{{ route('admin.registration.index') }}">
                             <i class="fe fe-users fe-16"></i>
-                            <span class="ml-3 item-text">Listed Participants</span>
+                            <span class="ml-3 item-text">Listed Participantes</span>
                         </a>
                     </li>
                 </ul>
 
 
-                @if ('USP' == Auth::user()->level || 'Administrador' == Auth::user()->level)
-                    {{-- Menu de Operational Teams --}}
-                    <p class="text-muted nav-heading mt-2 mb-1">
-                        <span> Operational Teams</span>
-                    </p>
-                    <li class="nav-item dropdown">
-                        <a href="#team" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle nav-link">
-                            <i class="fe fe-user-plus fe-16"></i>
-                            <span class="ml-3 item-text"> Operational Teams</span>
-                        </a>
-                        <ul class="collapse list-unstyled pl-4 w-100" id="team">
-
-                            <li class="nav-item">
-                                <a class="nav-link pl-3" href="{{ route('admin.team.create') }}">
-                                    <span class="ml-1 item-text">Create Operational Team</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-3" href="{{ route('admin.team.index') }}">
-                                    <span class="ml-1 item-text">List Operational Teams</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                @endif
-
+                
                 @if ('Administrador' == Auth::user()->level)
                     {{-- Menu de Users --}}
                     <p class="text-muted nav-heading mt-2 mb-1">

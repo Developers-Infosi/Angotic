@@ -1,7 +1,7 @@
 <footer class="py-1 mt-4 bg-primary">
 
     <p class="text-center mt-3 text-white">
-        <span>&copy; {{ date('Y') }}, Portal do III Luanda Financing Summit for Africa's Infrastructure Development
+        <span>&copy; {{ date('Y') }}, ANGOTIC 2026
         </span> by
         <a href="https://minttics.gov.ao/" target="_blank" class="text-white">MINTTICS</a>
     </p>

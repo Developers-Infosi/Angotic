@@ -19,7 +19,7 @@ class HomeController extends Controller
         $response['schedulesII'] = Schedule::where('day', 'II')->orderby('start','asc')->get();
         $response['schedulesIII'] = Schedule::where('day', 'III')->orderby('start','asc')->get();
        
-        $response['speakers'] = Speaker::where('priority', '!=', 'NULL')->orderBy('priority', 'asc')->limit(8)->get();
+        $response['speakers'] = Speaker::orderBy('priority', 'asc')->limit(12)->get();
         return view('site.home.index', $response);
     }
 }

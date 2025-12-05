@@ -3,7 +3,7 @@
         <x-slot name="logo">
             <a href="{{ route('site.home') }}">
                    {{-- <x-application-logo class="w-20 h-20 fill-current text-gray-500" /> --}}
-                   <img src="/site/images/logo/colored.png" alt="Logo" width="250">
+                   <img src="/site/img/logo/color.png" alt="Logo" width="250">
             </a>
         </x-slot>
 

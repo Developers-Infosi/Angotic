@@ -1,11 +1,11 @@
 @extends('layouts.merge.dashboard')
-@section('titulo', 'Utilizador '.$user->name)
+@section('titulo', 'Detalhes do Utilizador')
 
 @section('content')
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                Utilizador {{ $user->name }}
+                Detalhes do Utilizador {{ $user->name }}
             </h2>
         </div>
     </div>
@@ -39,7 +39,11 @@
 
                                         </h4>
                                     </div>
-                                    
+                                    {{-- <div class="col">
+                                        <p class="small mb-0 text-muted">Nec Urna Suscipit Ltd</p>
+                                        <p class="small mb-0 text-muted">P.O. Box 464, 5975 Eget Avenue</p>
+                                        <p class="small mb-0 text-muted">(537) 315-1481</p>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -66,6 +70,7 @@
                         <th>ID</th>
                         <th>NIVEL</th>
                         <th>IP</th>
+
                         <th>DATA</th>
                         <th>DESCRIÇÃO</th>
                     </tr>

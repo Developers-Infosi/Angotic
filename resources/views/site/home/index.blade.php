@@ -36,7 +36,7 @@
                                     class="button-wellow w-button">Participar</a>
                                 <a href="{{ route('site.schedule') }}" class="button red w-button">Agenda</a>
                             </div>
-                          
+
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                 </div>
             </div>
             <div class="div-block-149 _1">
-                
+
                 <div class="div-block-130">
                     <div class="text-block-13">10</div>
                     <div class="text-block-15">Sessões Técnicas</div>
@@ -117,7 +117,7 @@
                 </div>
             </div>
             <div class="div-block-149 _1">
-            
+
                 <div class="div-block-130">
                     <div class="text-block-13">10</div>
                     <div class="text-block-15">Sessões Técnicas</div>
@@ -150,7 +150,7 @@
                         fake news, governação electrónica, produtos e serviços locais, televisão digital,
                         data center, e não só.</p>
                     <div class="div-block-310">
-                        <a href="page/tabela-geral-de-precos.html" class="button-wellow w-button">participar</a>
+                        <a href="{{ route('site.registration.index') }}" class="button-wellow w-button">participar</a>
                     </div>
                 </div>
                 <div class="div-block-238"></div>
@@ -164,27 +164,23 @@
                 <div class="linha-vermelha"></div>
             </div>
             <div class="w-layout-grid grid-27">
-                <a href="#" class="card-slide _3 w-inline-block">
-                    <div class="participante speaker"><img sizes="(max-width: 667px) 100vw, 667px"
-                            srcset="images/Imagem-WhatsApp-2025-07-07-às-06.02.29_48722978-p-500.jpg 500w, images/Imagem-WhatsApp-2025-07-07-às-06.02.29_48722978.jpg 667w"
-                            alt="" src="images/Imagem-WhatsApp-2025-07-07-às-06.02.29_48722978.jpg"
-                            loading="lazy" class="foto-1 _3">
-                    </div>
-                    <div class="nome-speakers">Sua Excia.Dr. João Manuel Gonçalves Lourenço</div>
-                    <div>
-                        <div class="fun-o">Presidente da República de <strong>Angola</strong></div>
-                    </div>
-                </a>
 
+                @foreach ($speakers as $row)
+                    <a href="#" class="card-slide _3 w-inline-block">
+                        <div class="participante speaker"><img sizes="(max-width: 667px) 100vw, 667px"
+                                srcset="/storage/{{ $row->photo }} 500w, /storage/{{ $row->photo }} 667w"
+                                alt="" src="/storage/{{ $row->photo }}" loading="lazy" class="foto-1 _3">
+                        </div>
+                        <div class="nome-speakers">{{ $row->name }}</div>
+                        <div>
+                            <div class="fun-o">
+                                {{ $row->function }} <br>
+                                <strong>{!! html_entity_decode($row->company) !!}</strong>
+                            </div>
+                        </div>
+                    </a>
+                @endforeach
 
-                <a href="#" class="card-slide _3 w-inline-block">
-                    <div class="participante speaker"><img loading="lazy" src="images/speakers/pce_ue.jpeg"
-                            alt="" class="foto-1 _3"></div>
-                    <div class="nome-speakers">Drª. Ursula von der Leyen</div>
-                    <div>
-                        <div class="fun-o">Presidente da Comissão Europeia, <strong>União Europeia</strong></div>
-                    </div>
-                </a>
             </div>
         </div>
     </section>

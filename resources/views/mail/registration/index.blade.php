@@ -190,7 +190,7 @@
                                                                         align="center">
 
                                                                         <img align="center" border="0"
-                                                                            src="https://fgi.ao/public/site/images/logo/colored.png"
+                                                                            src="https://fgi.ao/public/site/img/logo/color.png"
                                                                             alt="Image" title="Image"
                                                                             width="250" />
 

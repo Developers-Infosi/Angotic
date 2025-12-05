@@ -192,7 +192,7 @@
                                                                         align="center">
 
                                                                         <img align="center" border="0"
-                                                                            src="http://fgi.ao/site/images/logo/colored.png"
+                                                                            src="http://fgi.ao/site/img/logo/color.png"
                                                                             alt="Image" title="Image"
                                                                             width="200" />
 

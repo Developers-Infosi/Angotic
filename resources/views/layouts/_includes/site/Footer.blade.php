@@ -12,11 +12,9 @@
 
                 <div>
                     <p class="paragraph-3">
-                        Renovar e reforçar a parceria estratégica entre a União Africana (UA) e a União Europeia (UE),
-                        com foco na
-                        implementação dos compromissos assumidos na cimeira anterior (Bruxelas 2022) e na definição de
-                        novos eixos
-                        de cooperação até 2030.
+                        Com foco na digitalização, modernização, oferta de serviços de proximidade, inovação
+                        sustentável, inclusão e reforço da cooperação, espera-se que o Angotic 2026 evidencie-se o
+                        melhor da capacidade criativa e inovadora das empresas do sector das TIC.
                     </p>
                 </div>
             </div>

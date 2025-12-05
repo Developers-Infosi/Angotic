@@ -4,9 +4,11 @@ namespace App\Http\Controllers\Admin;
 
 use App\Classes\Logger;
 use App\Http\Controllers\Controller;
+use App\Models\Exhibitor;
+use App\Models\Log;
 use App\Models\Registration;
-use App\Models\Team;
 use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
 class DashboardController extends Controller
@@ -18,89 +20,28 @@ class DashboardController extends Controller
         $this->Logger = new Logger();
     }
 
-
-
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function index()
     {
-        $count_teams = Team::count();
 
-        // Baseados em Angola vs Internacionais
-        $count_based_registration = Registration::where('based', 'Yes')->withoutTrashed()->count();
-        $count_international_registration = Registration::where('based', 'No')->withoutTrashed()->count();
+        /* Registration Counts  */
+        $response['registration'] = Registration::where('status', '!=',  'DUPLICADO')->count();
+        $response['registration_Participant_Estudante'] = Registration::where([['plafond', 'PARTICIPANTE ESTUDANTE'], ['status', '!=',  'DUPLICADO']])->count();
+        $response['registration_Participant_c'] = Registration::where([['plafond', 'PARTICIPANTE C'], ['status', '!=',  'DUPLICADO']])->count();
+        $response['registration_Participant_b'] = Registration::where([['plafond', 'PARTICIPANTE B'], ['status', '!=',  'DUPLICADO']])->count();
+        $response['registration_Participant_a'] = Registration::where([['plafond', 'PARTICIPANTE A'], ['status', '!=',  'DUPLICADO']])->count();
+        $response['registration_vip'] = Registration::where([['plafond', 'PARTICIPANTE VIP'], ['status', '!=',  'DUPLICADO']])->count();
+        $response['registration_Participant_Familiar'] = Registration::where([['plafond', 'INGRESSO FAMILIAR'], ['status', '!=',  'DUPLICADO']])->count();
 
-        // Por nacionalidade (Top 10)
-        $registrations_by_nationality = Registration::withoutTrashed()
-            ->select('nationality', DB::raw('count(*) as total'))
-            ->groupBy('nationality')
-            ->orderByDesc('total')
-            ->limit(10)
-            ->get();
 
-        // Por título
-        $registrations_by_title = Registration::withoutTrashed()
-            ->select('title', DB::raw('count(*) as total'))
-            ->groupBy('title')
-            ->get();
 
-        // Por organização
-        $registrations_by_org_type = Registration::withoutTrashed()
-            ->select('org_type', DB::raw('count(*) as total'))
-            ->groupBy('org_type')
-            ->get();
-
-        // Por status
-        $registrations_by_status = Registration::withoutTrashed()
-            ->select('status', DB::raw('count(*) as total'))
-            ->groupBy('status')
-            ->get();
-
-        // Por nível
-        $registrations_by_level = Registration::withoutTrashed()
-            ->select('level', DB::raw('count(*) as total'))
-            ->groupBy('level')
-            ->get();
-
-        // Por Visa Status
-        $registrations_by_visa_status = Registration::withoutTrashed()
-            ->select('visa_status', DB::raw('count(*) as total'))
-            ->groupBy('visa_status')
-            ->get();
-
-        // Por Passport Type
-        $registrations_by_passport_type = Registration::withoutTrashed()
-            ->select('passport_type', DB::raw('count(*) as total'))
-            ->groupBy('passport_type')
-            ->get();
-
-        // Por Diet
-        $registrations_by_diet = Registration::withoutTrashed()
-            ->select('diet', DB::raw('count(*) as total'))
-            ->groupBy('diet')
-            ->get();
-
-        // By Operational Team Type
-        $teams_by_type = Team::withoutTrashed()
-            ->select('type', DB::raw('count(*) as total'))
-            ->groupBy('type')
-            ->get();
 
         //Logger
-        $this->Logger->log('info', 'Logged into the Admin Panel');
-
-        return view('admin.home.index', [
-            'count_based_registration' => $count_based_registration,
-            'count_international_registration' => $count_international_registration,
-            'registrations_by_nationality' => $registrations_by_nationality,
-            'registrations_by_title' => $registrations_by_title,
-            'registrations_by_org_type' => $registrations_by_org_type,
-            'registrations_by_status' => $registrations_by_status,
-            'registrations_by_level' => $registrations_by_level,
-            'registrations_by_visa_status' => $registrations_by_visa_status,
-            'registrations_by_passport_type' => $registrations_by_passport_type,
-            'registrations_by_diet' => $registrations_by_diet,
-
-            'teams_by_type' => $teams_by_type,
-            'count_teams' => $count_teams,
-        ]);
+        $this->Logger->log('info', 'Entrou no Painel Administrativo');
+        return view('admin.home.index', $response);
     }
 }
