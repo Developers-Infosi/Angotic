@@ -65,7 +65,7 @@
                                 @foreach ($schedulesI as $item)
                                     <div class="div-block-214">
                                         <div class="div-block-215 h">
-                                            <div class="text-block-72 h">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
+                                            <div class="text-block-72 h textcenter">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
                                         </div>
                                         <div class="div-block-215 evento">
                                             <div class="text-block-72">{{ $item->theme }}</div>
@@ -99,21 +99,19 @@
                                     </div>
                                 </div>
 
-                                @foreach ($schedulesII as $row)
-                                    <div class="div-block-214">
+                                @foreach ($schedulesII as $item)
+                                     <div class="div-block-214">
                                         <div class="div-block-215 h">
-                                            <div class="text-block-72 h">09:00 - 10:30</div>
+                                            <div class="text-block-72 h textcenter">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
                                         </div>
                                         <div class="div-block-215 evento">
-                                            <div class="text-block-72">Painel de Alto Nível II</div>
+                                            <div class="text-block-72">{{ $item->theme }}</div>
                                         </div>
                                         <div class="div-block-215 tema">
-                                            <div class="text-block-72">Modernização, Digitalização, IA e
-                                                Blockchain:Transformando o Sector de
-                                                Transporte e Logistica em Africa</div>
+                                            <div class="text-block-72">{{ $item->program }}</div>
                                         </div>
                                         <div class="div-block-215 local">
-                                            <div class="text-block-72">Grande Auditório</div>
+                                            <div class="text-block-72">{{ $item->room }}</div>
                                         </div>
                                     </div>
                                 @endforeach
@@ -138,19 +136,19 @@
                                     </div>
                                 </div>
 
-                                @foreach ($schedulesIII as $row)
-                                    <div class="div-block-214">
+                                @foreach ($schedulesIII as $item)
+                                     <div class="div-block-214">
                                         <div class="div-block-215 h">
-                                            <div class="text-block-72 h">09:00 - 10:30</div>
+                                            <div class="text-block-72 h textcenter">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
                                         </div>
                                         <div class="div-block-215 evento">
-                                            <div class="text-block-72">Mesa Redonda II</div>
+                                            <div class="text-block-72">{{ $item->theme }}</div>
                                         </div>
                                         <div class="div-block-215 tema">
-                                            <div class="text-block-72">Transporte Sustentável e Economia Verde</div>
+                                            <div class="text-block-72">{{ $item->program }}</div>
                                         </div>
                                         <div class="div-block-215 local">
-                                            <div class="text-block-72">Grande Auditório</div>
+                                            <div class="text-block-72">{{ $item->room }}</div>
                                         </div>
                                     </div>
                                 @endforeach
