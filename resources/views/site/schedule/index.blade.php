@@ -65,7 +65,7 @@
                                 @foreach ($schedulesI as $item)
                                     <div class="div-block-214">
                                         <div class="div-block-215">
-                                            <div class="text-block-72 textcenter">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
+                                            <div class="text-block-72">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
                                         </div>
                                         <div class="div-block-215 evento">
                                             <div class="text-block-72">{{ $item->theme }}</div>
@@ -102,7 +102,7 @@
                                 @foreach ($schedulesII as $item)
                                      <div class="div-block-214">
                                         <div class="div-block-215">
-                                            <div class="text-block-72 textcenter">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
+                                            <div class="text-block-72">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
                                         </div>
                                         <div class="div-block-215 evento">
                                             <div class="text-block-72">{{ $item->theme }}</div>
@@ -139,7 +139,7 @@
                                 @foreach ($schedulesIII as $item)
                                      <div class="div-block-214">
                                         <div class="div-block-215">
-                                            <div class="text-block-72 textcenter">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
+                                            <div class="text-block-72">{{ date('H:i', strtotime($item->start)) }} - {{ date('H:i', strtotime($item->end)) }}</div>
                                         </div>
                                         <div class="div-block-215 evento">
                                             <div class="text-block-72">{{ $item->theme }}</div>
