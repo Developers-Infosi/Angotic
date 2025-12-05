@@ -29,13 +29,13 @@
                                          "default_language": "pt",
                                          "languages": ["pt", "en", "fr"],
                                          "wrapper_selector": ".gtranslate_wrapper",
-                                         "flag_size": 24,
+                                         "flag_size": 20,
                                          "switcher_horizontal_position": "inline"
                                      }
                                  </script>
                                  <script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer=""></script>
 
-                                
+
                              </div>
                          </div>
                          <div class="div-block-139 _1">
