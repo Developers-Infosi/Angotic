@@ -36,63 +36,7 @@
                                     class="button-wellow w-button">Participar</a>
                                 <a href="{{ route('site.schedule') }}" class="button red w-button">Agenda</a>
                             </div>
-                            <div class="sadc texto">
-                                <div class="bandeira"><img src="images/images.png" loading="lazy" alt=""
-                                        class="image-14"></div>
-                                <div class="bandeira"><img src="images/Flag_of_South_Africa.svg.png" loading="lazy"
-                                        alt="" class="image-14"></div>
-                                <div class="bandeira"><img src="images/Flag_of_Botswana.svg.png" loading="lazy"
-                                        alt="" class="image-14">
-                                </div>
-                                <div class="bandeira"><img src="images/Flag_of_Eswatini.svg.png" loading="lazy"
-                                        alt="" class="image-14">
-                                </div>
-                                <div class="bandeira"><img src="images/Flag_of_Lesotho.svg.png" loading="lazy"
-                                        alt="" class="image-14">
-                                </div>
-                                <div class="bandeira"><img src="images/Flag_of_Malawi.svg.png" loading="lazy"
-                                        sizes="(max-width: 800px) 100vw, 800px"
-                                        srcset="images/Flag_of_Malawi.svg-p-500.png 500w, images/Flag_of_Malawi.svg.png 800w"
-                                        alt="" class="image-14"></div>
-                                <div class="bandeira"><img src="images/Flag_of_Namibia.svg.png" loading="lazy"
-                                        sizes="(max-width: 640px) 100vw, 640px"
-                                        srcset="images/Flag_of_Namibia.svg-p-500.png 500w, images/Flag_of_Namibia.svg.png 640w"
-                                        alt="" class="image-14"></div>
-                                <div class="bandeira"><img src="images/Flag_of_Mauritius.svg.png" loading="lazy"
-                                        sizes="(max-width: 1200px) 100vw, 1200px"
-                                        srcset="images/Flag_of_Mauritius.svg-p-500.png 500w, images/Flag_of_Mauritius.svg-p-800.png 800w, images/Flag_of_Mauritius.svg.png 1200w"
-                                        alt="" class="image-14"></div>
-                                <div class="bandeira"><img src="images/Flag_of_Seychelles.svg.png" loading="lazy"
-                                        sizes="(max-width: 1200px) 100vw, 1200px"
-                                        srcset="images/Flag_of_Seychelles.svg-p-500.png 500w, images/Flag_of_Seychelles.svg.png 1200w"
-                                        alt="" class="image-14"></div>
-                                <div class="bandeira"><img src="images/Flag_of_the_Democratic_Republic_of_the_Congo.svg.png"
-                                        loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px"
-                                        srcset="images/Flag_of_the_Democratic_Republic_of_the_Congo.svg-p-500.png 500w, images/Flag_of_the_Democratic_Republic_of_the_Congo.svg.png 1200w"
-                                        alt="" class="image-14"></div>
-                                <div class="bandeira"><img src="images/Flag_of_Madagascar.svg.png" loading="lazy"
-                                        alt="" class="image-14"></div>
-                                <div class="bandeira"><img src="images/Flag_of_the_Comoros.svg.png" loading="lazy"
-                                        sizes="(max-width: 1200px) 100vw, 1200px"
-                                        srcset="images/Flag_of_the_Comoros.svg-p-500.png 500w, images/Flag_of_the_Comoros.svg-p-800.png 800w, images/Flag_of_the_Comoros.svg-p-1080.png 1080w, images/Flag_of_the_Comoros.svg.png 1200w"
-                                        alt="" class="image-14"></div>
-                                <div class="bandeira"><img src="images/Flag_of_Mozambique.svg.png" loading="lazy"
-                                        sizes="(max-width: 1200px) 100vw, 1200px"
-                                        srcset="images/Flag_of_Mozambique.svg-p-500.png 500w, images/Flag_of_Mozambique.svg-p-800.png 800w, images/Flag_of_Mozambique.svg-p-1080.png 1080w, images/Flag_of_Mozambique.svg.png 1200w"
-                                        alt="" class="image-14"></div>
-                                <div class="bandeira"><img src="images/Flag_of_Zambia.svg.png" loading="lazy"
-                                        alt="" class="image-14">
-                                </div>
-                                <div class="bandeira"><img src="images/Zimbabwe.png" loading="lazy"
-                                        sizes="(max-width: 800px) 100vw, 800px"
-                                        srcset="images/Zimbabwe-p-500.png 500w, images/Zimbabwe.png 800w" alt=""
-                                        class="image-14"></div>
-                                <div class="bandeira"><img src="images/Flag_of_Tanzania.svg.png" loading="lazy"
-                                        alt="" class="image-14">
-                                </div>
-                                <div class="bandeira _1"><img src="images/Flag_of_South_Africa.svg.png" loading="lazy"
-                                        alt="" class="image-14 _1"></div>
-                            </div>
+                          
                         </div>
                     </div>
                 </div>
@@ -104,96 +48,90 @@
             <div class="div-block-149">
                 <div class="div-block-130">
                     <div class="text-block-13">+100</div>
-                    <div class="text-block-15">expositores</div>
+                    <div class="text-block-15">EXPOSITORES</div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">2</div>
+                    <div class="text-block-13">10</div>
                     <div class="text-block-15">PAINÉIS de Alto NÍVEL</div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">3</div>
+                    <div class="text-block-13">5</div>
                     <div class="text-block-15">Workshops </div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">+6000</div>
+                    <div class="text-block-13">+25000</div>
                     <div class="text-block-15">Participantes</div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">55</div>
+                    <div class="text-block-13">+30</div>
                     <div class="text-block-15">Speakers</div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">3</div>
+                    <div class="text-block-13">10</div>
                     <div class="text-block-15">Mesas Redondas</div>
                 </div>
             </div>
             <div class="div-block-149 _1">
+                
                 <div class="div-block-130">
-                    <div class="text-block-13">1</div>
-                    <div class="text-block-15">Bolsa de Oportunidades de Investimento</div>
-                </div>
-                <div class="div-block-130">
-                    <div class="text-block-13">3</div>
+                    <div class="text-block-13">10</div>
                     <div class="text-block-15">Sessões Técnicas</div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">1</div>
+                    <div class="text-block-13">3</div>
                     <div class="text-block-15">Bolsa de Inovação</div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">+100</div>
+                    <div class="text-block-13">+10</div>
                     <div class="text-block-15">Reuniões B2B<br></div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">+2</div>
+                    <div class="text-block-13">+5</div>
                     <div class="text-block-15">Programação<br>Cultural</div>
                 </div>
             </div>
             <div class="div-block-149">
                 <div class="div-block-130">
                     <div class="text-block-13">+100</div>
-                    <div class="text-block-15">expositores</div>
+                    <div class="text-block-15">EXPOSITORES</div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">2</div>
+                    <div class="text-block-13">10</div>
                     <div class="text-block-15">PAINÉIS de Alto NÍVEL</div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">3</div>
+                    <div class="text-block-13">5</div>
                     <div class="text-block-15">Workshops </div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">+6000</div>
+                    <div class="text-block-13">+25000</div>
                     <div class="text-block-15">Participantes</div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">55</div>
+                    <div class="text-block-13">+30</div>
                     <div class="text-block-15">Speakers</div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">3</div>
+                    <div class="text-block-13">10</div>
                     <div class="text-block-15">Mesas Redondas</div>
                 </div>
             </div>
             <div class="div-block-149 _1">
+            
                 <div class="div-block-130">
-                    <div class="text-block-13">1</div>
-                    <div class="text-block-15">Bolsa de Oportunidades de Investimento</div>
-                </div>
-                <div class="div-block-130">
-                    <div class="text-block-13">3</div>
+                    <div class="text-block-13">10</div>
                     <div class="text-block-15">Sessões Técnicas</div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">1</div>
+                    <div class="text-block-13">3</div>
                     <div class="text-block-15">Bolsa de Inovação</div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">+100</div>
+                    <div class="text-block-13">+10</div>
                     <div class="text-block-15">Reuniões B2B<br></div>
                 </div>
                 <div class="div-block-130">
-                    <div class="text-block-13">+2</div>
+                    <div class="text-block-13">+5</div>
                     <div class="text-block-15">Programação<br>Cultural</div>
                 </div>
             </div>
@@ -297,7 +235,7 @@
     <section class="section-26">
         <div style="padding-top:56.17021276595745%" class="w-embed-youtubevideo youtube-5">
             <iframe
-                src="https://www.youtube.com/embed/sxLt9DkElmg?rel=0&amp;controls=0&amp;autoplay=1&amp;mute=1&amp;start=0"
+                src="https://www.youtube.com/embed/4WVMM7lt5Z0?rel=0&amp;controls=0&amp;autoplay=1&amp;mute=1&amp;start=0"
                 frameborder="0" style="position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:auto"
                 allow="autoplay; encrypted-media" allowfullscreen title="Vídeo do YouTube">
             </iframe>
